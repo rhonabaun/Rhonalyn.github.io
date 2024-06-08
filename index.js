@@ -9,7 +9,7 @@ function submitComment(){
   commentbox.textContent += comment.value.toString() + "\n"
  comment.value=""
 }
-submit.addEventListener("click", submitComment) 
+
 function clickLike1() {
   let totalLikes1 = parseInt(countLikes1.value) + 1
   countLikes1.textContent = totalLikes1.toString()
@@ -20,3 +20,4 @@ function clickLike2() {
 }
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
+submit.addEventListener("click", submitComment) 
