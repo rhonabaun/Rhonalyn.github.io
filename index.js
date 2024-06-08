@@ -35,3 +35,4 @@ btnLike2.addEventListener("click",clickLike2)
 btnDislike1.addEventListener("click",clickDislike1)
 btnDislike2.addEventListener("click",clickDislike2)
 submit.addEventListener("click", submitComment)
+
